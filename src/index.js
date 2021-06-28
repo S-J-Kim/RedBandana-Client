@@ -5,10 +5,11 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   display: flex;
-
+  
   body {
     margin:0;
     display:flex;
+    font-family: 'Noto Sans KR', sans-serif;
   }
 `;
 
@@ -17,7 +18,7 @@ ReactDOM.render(
     <GlobalStyle />
     <App />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

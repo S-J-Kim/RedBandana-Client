@@ -60,7 +60,6 @@ const LogoImage = styled.img`
 `;
 
 const Text = styled.div`
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -81,7 +80,6 @@ const SubContainer = styled.div`
 `;
 
 const SubTextType = styled.div`
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -104,7 +102,6 @@ const IconContainer = styled.div`
 `;
 
 const CompanyText = styled.p`
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;

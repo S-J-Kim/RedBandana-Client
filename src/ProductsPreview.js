@@ -62,7 +62,6 @@ const Container = styled.div`
   width: 100vw;
 `;
 const Title = styled.p`
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -81,7 +80,6 @@ const MoreContainer = styled.div`
 `;
 
 const MoreText = styled.p`
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -106,7 +104,6 @@ const ProductSetContainer = styled.div`
 `;
 
 const ProductName = styled.p`
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -116,7 +113,6 @@ const ProductName = styled.p`
   padding-left: 0.5px;
 `;
 const ProductType = styled(ProductName)`
-  font-family: Noto Sans CJK KR;
   font-weight: normal;
   font-size: 12px;
   line-height: 18px;

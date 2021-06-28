@@ -24,17 +24,14 @@ const EnrollImage = styled.img`
 
 const Title = styled.p`
   margin: -22.5px 0px 0px 0px;
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
-
   color: #1a1a1a;
 `;
 const SubTitle = styled.p`
   margin: 2px 0px 15px 0px;
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -49,7 +46,6 @@ const HostEnrollButton = styled.button`
   height: 40px;
   border-radius: 5px;
 
-  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
