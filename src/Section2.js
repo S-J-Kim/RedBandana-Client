@@ -14,7 +14,6 @@ const Section2 = () => {
 };
 
 const SectionContainer = styled.section`
-  z-index: 1;
   background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
@@ -22,16 +21,9 @@ const SectionContainer = styled.section`
       #ffffff 100%
     ),
     url(${(props) => props.imageurl});
-
-  &::before {
-    width: 100%;
-    height: 322px;
-    content: '';
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    filter: blur(3px);
-  }
+  width: 100%;
+  height: 322px;
+  background-size: cover;
 `;
 
 const MainQuote = styled.h1`

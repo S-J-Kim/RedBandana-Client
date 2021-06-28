@@ -16,11 +16,13 @@ const HeaderContainer = styled.header`
     width: 100vw;
     height: 60px;
     display: flex;
-    position: sticky;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
-    padding: 0 22px;
+    padding: 0 22px 0 49px;
     box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
   }
 `;
 
@@ -31,7 +33,7 @@ const MainLogo = styled.img`
 `;
 
 const UserIcon = styled.img`
-  width: 13px;
+  width: 27px;
 `;
 
 export default Header;

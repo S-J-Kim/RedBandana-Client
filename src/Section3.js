@@ -55,6 +55,7 @@ const MainQuote = styled.h1`
   line-height: 32px;
   text-align: center;
   color: #1d1d1d;
+  margin-top: 25px;
 `;
 
 const SubQuote = styled.h2`
@@ -65,6 +66,7 @@ const SubQuote = styled.h2`
   /* or 160% */
   text-align: center;
   color: #1d1d1d;
+  margin-top: 15px;
 `;
 
 const MoreLink = styled.a`
