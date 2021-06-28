@@ -59,7 +59,7 @@ export default function ProductsPreview() {
 }
 const Container = styled.div`
   height: 733px;
-  width: 100vw;
+  width: 100%;
 `;
 const Title = styled.p`
   font-style: normal;

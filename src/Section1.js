@@ -17,8 +17,8 @@ const Section1 = () => {
   );
 };
 
-const SectionContainer = styled.section`
-  width: 100vw;
+const SectionContainer = styled.div`
+  width: 100%;
   height: 562px;
   background: linear-gradient(
       180deg,

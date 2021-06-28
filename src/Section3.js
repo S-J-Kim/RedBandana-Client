@@ -30,7 +30,7 @@ const Section3 = () => {
   );
 };
 
-const SectionContainer = styled.section`
+const SectionContainer = styled.div`
   width: 100%;
   height: auto;
   display: flex;
@@ -73,7 +73,6 @@ const MoreLink = styled.a`
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
-  /* or 183% */
   text-align: center;
   color: #e52323;
   text-decoration: none;

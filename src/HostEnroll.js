@@ -13,7 +13,7 @@ export default function HostEnroll() {
 }
 const Container = styled.div`
   height: 545px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
 `;
 

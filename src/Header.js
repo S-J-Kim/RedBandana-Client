@@ -12,24 +12,20 @@ const Header = () => {
 };
 
 const HeaderContainer = styled.header`
-  @media screen and (max-width: 375px) {
-    width: 100vw;
-    height: 60px;
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 22px 0 49px;
-    box-sizing: border-box;
-    background-color: white;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
-  }
+  width: 100%;
+  height: 60px;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 22px 0 49px;
+  box-sizing: border-box !important;
+  background-color: white;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
 `;
 
 const MainLogo = styled.img`
-  @media screen and (max-width: 375px) {
-    width: 110px;
-  }
+  width: 110px;
 `;
 
 const UserIcon = styled.img`

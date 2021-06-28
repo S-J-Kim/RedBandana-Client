@@ -1,7 +1,7 @@
-import React from "react";
-import Footer from "./Footer";
-import ProductsPreview from "./ProductsPreview";
-import HostEnroll from "./HostEnroll";
+import React from 'react';
+import Footer from './Footer';
+import ProductsPreview from './ProductsPreview';
+import HostEnroll from './HostEnroll';
 import Header from './Header';
 import styled from 'styled-components';
 import Section1 from './Section1';
@@ -23,10 +23,9 @@ function App() {
 }
 
 const Container = styled.div`
-  @media screen and (max-width: 375px) {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 `;
 
 export default App;
