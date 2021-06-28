@@ -17,7 +17,7 @@ const Section3 = () => {
         <img src={process.env.PUBLIC_URL + 'pointing.svg'} alt="편리함" />
         <MainQuote>#편리함</MainQuote>
         <SubQuote>
-          직거라해러 멀리 가지 마시고 가까운 역에서
+          직거래하러 멀리 가지 마시고 가까운 역에서
           <br />
           레드반다나를 찾아주세요
         </SubQuote>
