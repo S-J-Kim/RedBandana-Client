@@ -1,17 +1,19 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 export default function Footer() {
   return (
     <Container>
-      <LogoImage src={process.env.PUBLIC_URL + "redBandanaLogo.svg"} />
+      <LogoImage src={process.env.PUBLIC_URL + 'redBandanaLogo.svg'} />
 
       <Text>
         자주 묻는 질문
         <br />
-        이용약관
-        <br />
-        개인정보처리방안
+        <TextGray>
+          이용약관
+          <br />
+          개인정보처리방안
+        </TextGray>
       </Text>
 
       <SubContainer>
@@ -36,8 +38,8 @@ export default function Footer() {
         </SubTextValue>
       </SubContainer>
       <IconContainer>
-        <img src={process.env.PUBLIC_URL + "InstagramLogo.svg"} />
-        <img src={process.env.PUBLIC_URL + "KakaoTalkLogo.svg"} />
+        <img src={process.env.PUBLIC_URL + 'InstagramLogo.svg'} />
+        <img src={process.env.PUBLIC_URL + 'KakaoTalkLogo.svg'} />
       </IconContainer>
 
       <CompanyText>2021 Redbandana Corp. All Rights Reserved</CompanyText>
@@ -61,25 +63,29 @@ const Text = styled.div`
   font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
-  font-size: 13px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 32px;
   color: #ffffff;
   margin: 0px;
-  margin-top: 19px;
+  margin-top: 19.24px;
+`;
+
+const TextGray = styled.span`
+  color: rgba(255, 255, 255, 0.6);
 `;
 
 const SubContainer = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 19px;
+  margin-top: 22.76px;
 `;
 
 const SubTextType = styled.div`
   font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 26px;
   color: rgba(255, 255, 255, 0.6);
 `;
 
@@ -94,7 +100,7 @@ const IconContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0px 112px;
-  margin-top: 82.76px;
+  margin-top: 56.76px;
 `;
 
 const CompanyText = styled.p`

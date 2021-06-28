@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 function Product({ fileName, name, type, price, minPeriod }) {
   return (
@@ -22,43 +22,43 @@ export default function ProductsPreview() {
       <Title>인기 물품 둘러보기</Title>
       <MoreContainer>
         <MoreText>더 보기</MoreText>
-        <ArrowImage src={process.env.PUBLIC_URL + "arrow.svg"} />
+        <ArrowImage src={process.env.PUBLIC_URL + 'arrow.svg'} />
       </MoreContainer>
       <ProductSetContainer>
         <Product
-          fileName={"sm58.png"}
-          name={"Shure SM58"}
-          type={"MIC"}
-          price={"5,000"}
-          minPeriod={"2주"}
+          fileName={'sm58.png'}
+          name={'Shure SM58'}
+          type={'MIC'}
+          price={'5,000'}
+          minPeriod={'2주'}
         />
         <Product
-          fileName={"dynatone.png"}
-          name={"다이나톤 DCK-61"}
-          type={"키보드"}
-          price={"7,000"}
-          minPeriod={"1개월"}
+          fileName={'dynatone.png'}
+          name={'다이나톤 DCK-61'}
+          type={'키보드'}
+          price={'7,000'}
+          minPeriod={'1개월'}
         />
         <Product
-          fileName={"sm58.png"}
-          name={"Shure SM58"}
-          type={"MIC"}
-          price={"5,000"}
-          minPeriod={"2주"}
+          fileName={'sm58.png'}
+          name={'Shure SM58'}
+          type={'MIC'}
+          price={'5,000'}
+          minPeriod={'2주'}
         />
         <Product
-          fileName={"dynatone.png"}
-          name={"다이나톤 DCK-61"}
-          type={"키보드"}
-          price={"7,000"}
-          minPeriod={"1개월"}
+          fileName={'dynatone.png'}
+          name={'다이나톤 DCK-61'}
+          type={'키보드'}
+          price={'7,000'}
+          minPeriod={'1개월'}
         />
       </ProductSetContainer>
     </Container>
   );
 }
 const Container = styled.div`
-  height: 616px;
+  height: 733px;
   width: 100vw;
 `;
 const Title = styled.p`
@@ -75,7 +75,7 @@ const Title = styled.p`
 const MoreContainer = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 0px 160.85px; /*더보기 가운데 정렬*/
+  justify-content: center;
   align-items: center;
   margin: 0 0 21px 0;
 `;
