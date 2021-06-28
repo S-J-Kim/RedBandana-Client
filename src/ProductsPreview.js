@@ -10,7 +10,7 @@ function Product({ fileName, name, type, price, minPeriod }) {
       <ProductName>{name}</ProductName>
       <ProductType>{type}</ProductType>
       <ProductPrice>
-        주 {price}원 {minPeriod}
+        주 {price}원 &nbsp; {minPeriod}
       </ProductPrice>
     </ProductContainer>
   );
@@ -40,11 +40,11 @@ export default function ProductsPreview() {
           minPeriod={'1개월'}
         />
         <Product
-          fileName={'sm58.png'}
-          name={'Shure SM58'}
-          type={'MIC'}
-          price={'5,000'}
-          minPeriod={'2주'}
+          fileName={'hammer.png'}
+          name={'M-audio Hammer 88'}
+          type={'키보드'}
+          price={'25,000'}
+          minPeriod={'3개월'}
         />
         <Product
           fileName={'dynatone.png'}
@@ -112,17 +112,16 @@ const ProductName = styled.p`
   font-size: 15px;
   line-height: 22px;
   color: #1a1a1a;
-  margin: 0;
-  /*margin: 7.66px 0 0 0;*/
+  margin: 0 0 4px 0;
   padding-left: 0.5px;
 `;
 const ProductType = styled(ProductName)`
   font-family: Noto Sans CJK KR;
   font-weight: normal;
   font-size: 12px;
-  line-height: 17px;
+  line-height: 18px;
   padding-left: 1.5px;
-  /*margin: 6px 0 0 0;*/
+  margin: 0 0 2px 0;
   color: #abadae;
 `;
 const ProductPrice = styled(ProductName)`
@@ -131,7 +130,7 @@ const ProductPrice = styled(ProductName)`
   color: #777c82;
   line-height: 19px;
   padding-left: 1.5px;
-  /*margin: 5px 0 0 0;*/
+  margin: 0;
 `;
 
 const ProductBackground = styled.div`
