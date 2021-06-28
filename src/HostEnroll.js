@@ -46,6 +46,7 @@ const HostEnrollButton = styled.button`
   height: 40px;
   border-radius: 5px;
 
+  font-family: Noto Sans KR;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
