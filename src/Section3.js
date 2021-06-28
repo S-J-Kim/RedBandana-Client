@@ -37,6 +37,7 @@ const SectionContainer = styled.section`
   flex-direction: column;
   align-items: center;
   margin-top: 112px;
+  margin-bottom: 162px;
 `;
 
 const DesciptionBlock = styled.div`
