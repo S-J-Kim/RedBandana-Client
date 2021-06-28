@@ -1,10 +1,10 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 export default function HostEnroll() {
   return (
     <Container>
-      <EnrollImage src={process.env.PUBLIC_URL + "HostEnrollImage.png"} />
+      <EnrollImage src={process.env.PUBLIC_URL + 'HostEnrollImage.png'} />
       <Title>놀고 있는 음향장비가 있다면?</Title>
       <SubTitle>지금 바로 HOST 등록하고 돈 받자!</SubTitle>
       <HostEnrollButton>HOST 등록하기</HostEnrollButton>
@@ -12,7 +12,7 @@ export default function HostEnroll() {
   );
 }
 const Container = styled.div`
-  height: 392px;
+  height: 545px;
   width: 100vw;
   text-align: center;
 `;
