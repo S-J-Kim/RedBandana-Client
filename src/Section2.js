@@ -41,6 +41,7 @@ const MainQuote = styled.h1`
   text-align: center;
   margin-top: 112px;
   color: white;
+  text-shadow: 0px 0px 30px 0px rgba(141, 0, 0, 0.4);
 `;
 
 export default Section2;
