@@ -13,8 +13,7 @@ const Section2 = () => {
   );
 };
 
-const SectionContainer = styled.section`
-  z-index: 1;
+const SectionContainer = styled.div`
   background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,
@@ -22,16 +21,9 @@ const SectionContainer = styled.section`
       #ffffff 100%
     ),
     url(${(props) => props.imageurl});
-
-  &::before {
-    width: 100%;
-    height: 322px;
-    content: '';
-    position: absolute;
-    background: inherit;
-    z-index: -1;
-    filter: blur(3px);
-  }
+  width: 100%;
+  height: 322px;
+  background-size: cover;
 `;
 
 const MainQuote = styled.h1`
@@ -41,6 +33,7 @@ const MainQuote = styled.h1`
   text-align: center;
   margin-top: 112px;
   color: white;
+  text-shadow: 0px 0px 30px 0px rgba(141, 0, 0, 0.4);
 `;
 
 export default Section2;

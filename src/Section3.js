@@ -17,7 +17,7 @@ const Section3 = () => {
         <img src={process.env.PUBLIC_URL + 'pointing.svg'} alt="편리함" />
         <MainQuote>#편리함</MainQuote>
         <SubQuote>
-          직거라해러 멀리 가지 마시고 가까운 역에서
+          직거래하러 멀리 가지 마시고 가까운 역에서
           <br />
           레드반다나를 찾아주세요
         </SubQuote>
@@ -30,7 +30,7 @@ const Section3 = () => {
   );
 };
 
-const SectionContainer = styled.section`
+const SectionContainer = styled.div`
   width: 100%;
   height: auto;
   display: flex;
@@ -55,6 +55,7 @@ const MainQuote = styled.h1`
   line-height: 32px;
   text-align: center;
   color: #1d1d1d;
+  margin-top: 25px;
 `;
 
 const SubQuote = styled.h2`
@@ -65,13 +66,13 @@ const SubQuote = styled.h2`
   /* or 160% */
   text-align: center;
   color: #1d1d1d;
+  margin-top: 15px;
 `;
 
 const MoreLink = styled.a`
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
-  /* or 183% */
   text-align: center;
   color: #e52323;
   text-decoration: none;

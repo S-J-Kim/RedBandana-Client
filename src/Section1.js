@@ -17,8 +17,8 @@ const Section1 = () => {
   );
 };
 
-const SectionContainer = styled.section`
-  width: 100vw;
+const SectionContainer = styled.div`
+  width: 100%;
   height: 562px;
   background: linear-gradient(
       180deg,
@@ -33,6 +33,7 @@ const SectionContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-top: 60px;
 `;
 
 const MainQuote = styled.h1`
@@ -41,6 +42,7 @@ const MainQuote = styled.h1`
   font-size: 26px;
   line-height: 38px;
   margin-left: 18px;
+  margin-bottom: 18px;
 `;
 
 const SubQuote = styled.h2`
