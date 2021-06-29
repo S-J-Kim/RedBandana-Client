@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export default function Footer() {
   return (
     <Container>
-      <LogoImage src={process.env.PUBLIC_URL + 'redBandanaLogo.svg'} />
+      <LogoImage src={process.env.PUBLIC_URL + 'redBandanaLogo.png'} />
 
       <Text>
         자주 묻는 질문
@@ -56,7 +56,7 @@ const LogoImage = styled.img`
   margin: 61px 0px 0px 0px;
   width: 206px;
   height: 14px;
-  object-fit: cover;
+  object-fit: contain;
 `;
 
 const Text = styled.div`

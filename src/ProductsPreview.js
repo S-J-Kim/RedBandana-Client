@@ -33,7 +33,7 @@ export default function ProductsPreview() {
           minPeriod={'2주'}
         />
         <Product
-          fileName={'dynatone.png'}
+          fileName={'sm-58-1@3x.png'}
           name={'다이나톤 DCK-61'}
           type={'키보드'}
           price={'7,000'}
@@ -142,7 +142,10 @@ const ProductBackground = styled.div`
   align-items: center;
 `;
 
-const ProductImage = styled.img``;
+const ProductImage = styled.img`
+  width: 33.9px;
+  height: 113.34px;
+`;
 
 const ProductContainer = styled.div`
   margin-bottom: 31px;
