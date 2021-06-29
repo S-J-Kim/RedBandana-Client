@@ -31,6 +31,12 @@ const GlobalStyle = createGlobalStyle`
     display:flex;
     font-family: 'Noto Sans KR', sans-serif;
   }
+  html,
+  #root {
+    margin: 0;
+    height: 100%;
+    width:100%;
+  }
 `;
 
 ReactDOM.render(
