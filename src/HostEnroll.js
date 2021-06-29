@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export default function HostEnroll() {
   return (
     <Container>
-      <EnrollImage src={process.env.PUBLIC_URL + 'HostEnrollImage.png'} />
+      <EnrollImage src={process.env.PUBLIC_URL + 'HostEnrollImage@3x.png'} />
       <Title>놀고 있는 음향장비가 있다면?</Title>
       <SubTitle>지금 바로 HOST 등록하고 돈 받자!</SubTitle>
       <HostEnrollButton>HOST 등록하기</HostEnrollButton>

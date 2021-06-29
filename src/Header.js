@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <div></div>
-      <MainLogo src={process.env.PUBLIC_URL + 'mainlogo.svg'} />
+      <MainLogo src={process.env.PUBLIC_URL + 'mainlogo.png'} />
       <UserIcon src={process.env.PUBLIC_URL + 'profileicon.svg'} />
     </HeaderContainer>
   );

@@ -26,28 +26,28 @@ export default function ProductsPreview() {
       </MoreContainer>
       <ProductSetContainer>
         <Product
-          fileName={'sm58.png'}
+          fileName={'sm-58-1@3x.png'}
           name={'Shure SM58'}
           type={'MIC'}
           price={'5,000'}
           minPeriod={'2주'}
         />
         <Product
-          fileName={'sm-58-1@3x.png'}
+          fileName={'dynatone@3x.png'}
           name={'다이나톤 DCK-61'}
           type={'키보드'}
           price={'7,000'}
           minPeriod={'1개월'}
         />
         <Product
-          fileName={'hammer.png'}
+          fileName={'hammer@3x.png'}
           name={'M-audio Hammer 88'}
           type={'키보드'}
           price={'25,000'}
           minPeriod={'3개월'}
         />
         <Product
-          fileName={'dynatone.png'}
+          fileName={'dynatone@3x.png'}
           name={'다이나톤 DCK-61'}
           type={'키보드'}
           price={'7,000'}
@@ -100,7 +100,8 @@ const ProductSetContainer = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-left: 10px;
 `;
 
 const ProductName = styled.p`
@@ -143,10 +144,11 @@ const ProductBackground = styled.div`
 `;
 
 const ProductImage = styled.img`
-  width: 33.9px;
-  height: 113.34px;
+  max-width: 85%;
+  max-height: 70%;
+  overflow: visible;
 `;
 
 const ProductContainer = styled.div`
-  margin-bottom: 31px;
+  margin: 0 10px 31px 0;
 `;
