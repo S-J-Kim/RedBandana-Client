@@ -27,13 +27,13 @@ const SectionContainer = styled.div`
 `;
 
 const MainQuote = styled.h1`
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 38px;
   text-align: center;
   margin-top: 112px;
   color: white;
-  text-shadow: 0px 0px 30px 0px rgba(141, 0, 0, 0.4);
+  text-shadow: 0px 0px 20px rgba(141, 0, 0, 0.4);
 `;
 
 export default Section2;
